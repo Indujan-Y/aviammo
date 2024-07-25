@@ -1,0 +1,99 @@
+/* Bills.css */
+
+/* General Styles */
+.bills-wrapper {
+    padding: 20px;
+    width: 80%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.bills-wrapper button {
+    background-color: #ffffff;
+    color: #000000;
+    font-size: small;
+    font-weight: 600;
+    border-radius: 50px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #f0f0f0;
+}
+
+/* Orders Section */
+.title {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.line {
+    border: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/* Bills List */
+.bills-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Bill Card */
+.bill-card {
+    background-color: #ffffff;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+
+.bill-card-title {
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.bill-card-subtitle {
+    font-size: 1em;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.bill-items {
+    margin-top: 10px;
+}
+
+.bill-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.bill-item p {
+    margin: 5px 0;
+}
+
+/* Print Button */
+.print-button {
+    background-color: #d4edda;
+    color: #000000;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+.print-button:hover {
+    background-color: #c3e6cb;
+}

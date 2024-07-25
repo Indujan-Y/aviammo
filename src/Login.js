@@ -1,30 +1,27 @@
 import React, { useState } from 'react';
+import { useHistory } from 'react-router-dom';
 import { db } from './db/firebaseconfig';
 import { ref, onValue } from 'firebase/database';
 import AdminPage from './AdminPage';
-import './App.css';
+import './Login.css';
 
-function App() {
+function Login() {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState('');
-    const [isAuthenticated, setIsAuthenticated] = useState(false);
+    const history = useHistory();
 
     const handleLogin = () => {
         const adminRef = ref(db, 'admin');
         onValue(adminRef, (snapshot) => {
             const adminData = snapshot.val();
             if (adminData && adminData.name === username && adminData.password === password) {
-                setIsAuthenticated(true);
+                history.push('/admin');
             } else {
                 setError('Invalid username or password');
             }
         });
     };
-
-    if (isAuthenticated) {
-        return <AdminPage />;
-    }
 
     return (
         <div className="login-wrapper">
@@ -49,4 +46,4 @@ function App() {
     );
 }
 
-export default App;
+export default Login;

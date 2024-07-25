@@ -1,0 +1,49 @@
+.print-window {
+    padding: 20px;
+    background-color: #fff;
+    width: 80mm;
+    margin: auto;
+}
+
+.print-header,
+.print-neck,
+.print-body,
+.print-footer {
+    margin-bottom: 20px;
+}
+
+.print-header h1,
+.print-header h4 {
+    text-align: center;
+    margin: 0;
+}
+
+.print-neck-row,
+.print-body-row,
+.print-footer-row {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.print-neck-row-item,
+.print-body-row-item,
+.print-footer-row-item {
+    flex: 1;
+    text-align: center;
+}
+
+.print-body-row-item {
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+}
+
+.print-footer-row {
+    text-align: right;
+    padding: 5px 0;
+}
+
+.print-footer-row::after {
+    content: ':';
+    margin-left: 5px;
+}

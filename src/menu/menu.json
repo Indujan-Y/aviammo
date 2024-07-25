@@ -1,0 +1,468 @@
+{
+  "admin": {
+    "name": "thebrewberrycafe",
+    "password": "brewberry@24"
+  },
+  "menu": {
+    "breadOmelette": {
+      "Bread Omelette": {
+        "available": true,
+        "price": 60
+      },
+      "Cheese Bread": {
+        "available": true,
+        "price": 70
+      },
+      "Cheese Paneer": {
+        "available": true,
+        "price": 79
+      },
+      "Double Chicken": {
+        "available": true,
+        "price": 99
+      },
+      "Peri Peri Chicken": {
+        "available": true,
+        "price": 110
+      }
+    },
+    "burger": {
+      "Chicken Burger": {
+        "available": true,
+        "price": 99
+      },
+      "Chicken Cheese Burger": {
+        "available": true,
+        "price": 110
+      },
+      "Chicken Maggi Burger": {
+        "available": true,
+        "price": 125
+      },
+      "Paneer Burger": {
+        "available": true,
+        "price": 89
+      },
+      "Veg Burger": {
+        "available": true,
+        "price": 80
+      },
+      "Veg Cheese Burger": {
+        "available": true,
+        "price": 89
+      }
+    },
+    "dessert": {
+      "Brownie": {
+        "available": true,
+        "price": 75
+      },
+      "Brownie with Ice cream": {
+        "available": true,
+        "price": 130
+      },
+      "Brownie with Sizzler": {
+        "available": true,
+        "price": 180
+      },
+      "Chocolate Strawberry": {
+        "available": true,
+        "price": 200
+      }
+    },
+    "frenchFries": {
+      "Cheese Fries": {
+        "available": true,
+        "price": 70
+      },
+      "Fries": {
+        "available": true,
+        "price": 60
+      },
+      "Fries Loaded": {
+        "available": true,
+        "price": 120
+      },
+      "Masala Fries": {
+        "available": true,
+        "price": 70
+      },
+      "Peri Peri Fries": {
+        "available": true,
+        "price": 79
+      }
+    },
+    "freshJuices": {
+      "ABC": {
+        "available": true,
+        "price": 99
+      },
+      "Apple": {
+        "available": true,
+        "price": 70
+      },
+      "Carrot": {
+        "available": true,
+        "price": 60
+      },
+      "Lemon": {
+        "available": true,
+        "price": 50
+      },
+      "Mosambi": {
+        "available": true,
+        "price": 60
+      },
+      "Muskmelon": {
+        "available": true,
+        "price": 50
+      },
+      "Papaya": {
+        "available": true,
+        "price": 50
+      },
+      "Pomegranate": {
+        "available": true,
+        "price": 70
+      },
+      "Watermelon": {
+        "available": true,
+        "price": 40
+      }
+    },
+    "iceCream": {
+      "Black Currant": {
+        "available": true,
+        "price": 70
+      },
+      "Butterscotch": {
+        "available": true,
+        "price": 60
+      },
+      "Choco Chip": {
+        "available": true,
+        "price": 60
+      },
+      "Chocolate": {
+        "available": true,
+        "price": 60
+      },
+      "Kesar Pista": {
+        "available": true,
+        "price": 70
+      },
+      "Mango": {
+        "available": true,
+        "price": 50
+      },
+      "Strawberry": {
+        "available": true,
+        "price": 50
+      },
+      "Vanilla": {
+        "available": true,
+        "price": 50
+      }
+    },
+    "maggi": {
+      "Cheese Chicken Maggi": {
+        "available": true,
+        "price": 110
+      },
+      "Cheese Maggi": {
+        "available": true,
+        "price": 80
+      },
+      "Chicken Maggi": {
+        "available": true,
+        "price": 99
+      },
+      "Egg Maggi": {
+        "available": true,
+        "price": 70
+      },
+      "Regular Maggi": {
+        "available": true,
+        "price": 60
+      }
+    },
+    "milkShakes": {
+      "Black Currant Shake": {
+        "available": true,
+        "price": 70
+      },
+      "Butter Scotch Shake": {
+        "available": true,
+        "price": 60
+      },
+      "Chocolate Shake": {
+        "available": true,
+        "price": 70
+      },
+      "Kitkat Shake": {
+        "available": true,
+        "price": 70
+      },
+      "Oreo Shake": {
+        "available": true,
+        "price": 70
+      },
+      "Pista Shake": {
+        "available": true,
+        "price": 60
+      },
+      "Strawberry Shake": {
+        "available": true,
+        "price": 60
+      },
+      "Vanilla Shake": {
+        "available": true,
+        "price": 50
+      }
+    },
+    "mojito": {
+      "Blue Curacao Mojito": {
+        "available": true,
+        "price": 80
+      },
+      "Blueberry Mojito": {
+        "available": true,
+        "price": 80
+      },
+      "Green Apple Mojito": {
+        "available": true,
+        "price": 60
+      },
+      "Mint Mojito": {
+        "available": true,
+        "price": 70
+      },
+      "Pine Apple Mojito": {
+        "available": true,
+        "price": 70
+      },
+      "Strawberry Mojito": {
+        "available": true,
+        "price": 80
+      }
+    },
+    "momos": {
+      "Cheese Momos": {
+        "available": true,
+        "price": 79
+      },
+      "Chicken Momos": {
+        "available": true,
+        "price": 99
+      },
+      "Chicken Tikka Momos": {
+        "available": true,
+        "price": 110
+      },
+      "Paneer Momos": {
+        "available": true,
+        "price": 89
+      },
+      "Veg Momos": {
+        "available": true,
+        "price": 69
+      }
+    },
+    "pasta": {
+      "Alfredo Chicken Pasta": {
+        "available": true,
+        "price": 189
+      },
+      "Alfredo Sauce Pasta": {
+        "available": true,
+        "price": 149
+      },
+      "Chicken Pasta": {
+        "available": true,
+        "price": 99
+      },
+      "Pasta": {
+        "available": true,
+        "price": 80
+      }
+    },
+    "sandwich": {
+      "Baby Corn": {
+        "available": true,
+        "price": 80
+      },
+      "Chicken Cheese": {
+        "available": true,
+        "price": 110
+      },
+      "Chicken Sandwich": {
+        "available": true,
+        "price": 99
+      },
+      "Egg Sandwich": {
+        "available": true,
+        "price": 80
+      },
+      "Paneer Sandwich": {
+        "available": true,
+        "price": 89
+      },
+      "Veg Sandwich": {
+        "available": true,
+        "price": 70
+      }
+    },
+    "starters": {
+      "Cheese Balls": {
+        "available": true,
+        "price": 89
+      },
+      "Chicken Nuggets": {
+        "available": true,
+        "price": 90
+      },
+      "Chicken Popcorn": {
+        "available": true,
+        "price": 90
+      },
+      "Chicken Strips": {
+        "available": true,
+        "price": 99
+      },
+      "Fried Chicken (2 pcs)": {
+        "available": true,
+        "price": 99
+      },
+      "Veg Fingers": {
+        "available": true,
+        "price": 70
+      },
+      "Veg Nuggets": {
+        "available": true,
+        "price": 70
+      }
+    },
+    "waffles": {
+      "Bubble Gum": {
+        "available": true,
+        "price": 140
+      },
+      "Cookie & Cream": {
+        "available": true,
+        "price": 110
+      },
+      "Death by Chocolate": {
+        "available": true,
+        "price": 120
+      },
+      "Krazy Kitkat": {
+        "available": true,
+        "price": 130
+      },
+      "Only Oreo": {
+        "available": true,
+        "price": 130
+      },
+      "White Choco": {
+        "available": true,
+        "price": 100
+      }
+    },
+    "wraps": {
+      "Classic Chicken": {
+        "available": true,
+        "price": 99
+      },
+      "Fried Chicken": {
+        "available": true,
+        "price": 119
+      },
+      "Peri Peri Paneer": {
+        "available": true,
+        "price": 89
+      },
+      "Spicy Paneer": {
+        "available": true,
+        "price": 80
+      },
+      "Veg Wrap": {
+        "available": true,
+        "price": 70
+      }
+    }
+  },
+  "orders": {
+    "Order 1": {
+      "completed": true,
+      "items": {
+        "Fries": 1,
+        "Veg Burger": 2
+      },
+      "table": 1,
+      "timestamp": "2024-07-25T10:15:30Z"
+    },
+    "Order 2": {
+      "completed": false,
+      "items": {
+        "Chicken Nuggets": 2,
+        "Pine Apple Mojito": 2
+      },
+      "table": 2,
+      "timestamp": "2024-07-25T10:20:45Z"
+    },
+    "Order 3": {
+      "completed": true,
+      "items": {
+        "Veg Sandwich": 1,
+        "Watermelon Juice": 1
+      },
+      "table": 3,
+      "timestamp": "2024-07-25T10:25:10Z"
+    },
+    "Order 4": {
+      "completed": false,
+      "items": {
+        "Chocolate Shake": 1,
+        "Paneer Momos": 2
+      },
+      "table": 4,
+      "timestamp": "2024-07-25T10:30:00Z"
+    },
+    "Order 5": {
+      "completed": false,
+      "items": {
+        "Cheese Bread": 1,
+        "Chicken Cheese Burger": 1
+      },
+      "table": 5,
+      "timestamp": "2024-07-25T10:35:20Z"
+    }
+  },
+  "tables": [
+    null,
+    {
+      "available": true
+    },
+    {
+      "available": true
+    },
+    {
+      "available": true
+    },
+    {
+      "available": true
+    },
+    {
+      "available": true
+    },
+    {
+      "available": true
+    },
+    {
+      "available": true
+    },
+    {
+      "available": true
+    }
+  ]
+}
